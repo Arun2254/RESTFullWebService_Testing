@@ -6,7 +6,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/v1/status")
 public class V1_status {
 	
-	private static final String version="10.00.01";
+	private static final String version="10.00.02";
 	
 	@GET
 	@Produces(MediaType.TEXT_HTML)
